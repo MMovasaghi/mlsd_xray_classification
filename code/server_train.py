@@ -245,7 +245,7 @@ def train_model(model, criterion, optimizer, earlyStopper,
     return model, history
 
 
-def save_results(model, history, base_path="output"):
+def save_results(model, history, config, base_path="output"):
     suffix_file_name = f"lr{config['lr']}_bs{config['batch_size']}"
     dt = datetime.now()
     directory = f"{base_path}/{dt.year}_{dt.month}_{dt.day}_{dt.hour}_{dt.minute}_{dt.second}"
@@ -320,7 +320,7 @@ def main_train_model(config=None):
         model, history = train_model(model, criterion, optimizer, earlyStopper, 
                                     dataloaders, dataset_size, num_epochs=myconfig['epoch_num'], device=device)
 
-        save_results(model, history, base_path=f"{myconfig['model_path']}")
+        save_results(model, history, config=myconfig, base_path=f"{myconfig['model_path']}")
         cmd = f"cp -r {myconfig['model_path']} {config_wandb.output_path}"
         os.system(cmd)
 
@@ -351,7 +351,7 @@ def main(argv):
     }
     sweep_config['parameters'] = hyper_parameters
     sweep_id = wandb.sweep(sweep_config, project='mlsd')
-    wandb.agent(sweep_id, main_train_model, count=7)
+    wandb.agent(sweep_id, main_train_model, count=10)
 
 
 if __name__ == '__main__':
