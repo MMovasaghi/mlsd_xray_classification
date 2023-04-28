@@ -8,7 +8,7 @@
 
 module load python/3.8
 
-source $HOME/wsi/bin/activate
+source $HOME/movasaghi-test/bin/activate
 
 cp -r $HOME/scratch/movasaghi_files/xray_classify/chest_xray $SLURM_TMPDIR/
 
