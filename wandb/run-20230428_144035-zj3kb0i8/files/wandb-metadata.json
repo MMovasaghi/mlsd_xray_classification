@@ -1,0 +1,367 @@
+{
+    "os": "Linux-4.15.0-200-generic-x86_64-with-glibc2.17",
+    "python": "3.8.2",
+    "heartbeatAt": "2023-04-28T18:40:35.633399",
+    "startedAt": "2023-04-28T18:40:35.134186",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "/home/mila/a/aliakbar.ghayouri-sales/scratch/movasaghi_files/xray_classify/output"
+    ],
+    "state": "running",
+    "program": "code/server_train.py",
+    "codePath": "code/server_train.py",
+    "git": {
+        "remote": "https://github.com/MMovasaghi/mlsd_xray_classification",
+        "commit": "41788c74f25783d3a020ab13b150ccc0dbe9d0ff"
+    },
+    "email": null,
+    "root": "/network/scratch/a/aliakbar.ghayouri-sales/movasaghi_files/xray_classify",
+    "host": "cn-g007",
+    "username": "aliakbar.ghayouri-sales",
+    "executable": "/home/mila/a/aliakbar.ghayouri-sales/movasaghi-test/bin/python",
+    "cpu_count": 64,
+    "cpu_count_logical": 64,
+    "cpu_freq": {
+        "current": 3096.783500000001,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2975.06,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2974.257,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3716.925,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3716.68,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3717.91,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2990.111,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2973.011,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2975.973,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2974.465,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3627.792,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3717.91,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3716.81,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3717.177,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3717.312,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3717.923,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3716.692,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2532.309,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1797.12,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1797.038,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 1800.121,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2972.456,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3716.917,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2974.298,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3716.804,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2975.616,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3717.541,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3716.146,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3716.949,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3716.706,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3031.958,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3039.294,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3280.978,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2763.854,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2979.493,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3653.759,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2727.662,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2974.515,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3716.077,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2974.821,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2975.592,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3715.864,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2976.349,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2973.752,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2966.089,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3159.049,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2884.164,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2997.489,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2531.323,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3186.338,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3301.57,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3716.13,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3351.201,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2972.802,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2966.157,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3717.498,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2978.834,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2171.363,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2315.121,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2585.6,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2481.874,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2562.146,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2207.369,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2155.867,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3106.163,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 19.056472778320312,
+        "used": 5.161266326904297
+    },
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA A100-SXM4-80GB",
+            "memory_total": 85899345920
+        }
+    ],
+    "memory": {
+        "total": 1007.5161247253418
+    }
+}
