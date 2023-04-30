@@ -8,8 +8,8 @@
   <li style="direction:rtl"></li>
 </ul>
 
-| id | Error1 | Error2 | Error3 | Error4 | Error5 |
-| :--- | :---: | :---: | :---: | :---: | :---: |
+| id | Error1 | Error2 | Error3 | Error4 | Error5 | Comment |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
 | id_066379638521800  | :x: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
 | id_885258866569892  | :x: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
 | id_957853609926664  | :x: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | - |
