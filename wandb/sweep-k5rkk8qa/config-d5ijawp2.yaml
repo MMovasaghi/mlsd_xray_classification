@@ -1,0 +1,8 @@
+wandb_version: 1
+
+lr:
+  value: 0.0011609347374747093
+output_path:
+  value: /home/mila/a/aliakbar.ghayouri-sales/scratch/movasaghi_files/xray_classify/output
+weight_decay:
+  value: 7.69836573618847e-08
