@@ -332,7 +332,7 @@ def main(argv):
     # sweep_config = {'method': 'bayes'}
 
     metric = {'name': 'val_acc', 
-            'goal': 'minimize'}
+            'goal': 'maximize'}
 
     sweep_config['metric'] = metric
 
